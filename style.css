@@ -1,0 +1,22 @@
+.history-body{
+    border: 0.5px solid rgba(209, 209, 209, 0.815);
+    border-radius: 15px;
+    padding: 20px;
+}
+.history-title{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 17px;
+}
+.history-datetime{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+@media screen and (max-width: 580px) {
+    .history-title{
+        font-size: 1.1rem;
+    }
+    .history-datetime{
+        font-size: 0.8rem;
+    }
+}

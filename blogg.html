@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TailwindCSS and DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Blog</title>
+</head>
+<body>
+        
+    <header>
+        <div class="container mx-auto">
+            <nav class="container top-0 fixed">
+                <div class="navbar bg-base-100 items-center">
+                    <div class="navbar-start">
+                        <a href="./index.html"><button class="bg-[#B4F461] text-black btn border-none font-bold text-lg px-4 btn-sm sm:btn-md sm:px-8">Home</button></a>
+                    </div>
+    
+                    <div class="navbar-center flex-col gap-x-2.5 sm:flex-row">
+                        <img class="size-11" src="./assets/logo.png" alt="Donate Logo">
+                        <h1 class="font-bold sm:text-2xl">Donate Bangladesh</h1>
+                    </div>
+    
+                    <div class="navbar-end items-center gap-x-0.5">
+                        <img class="size-6 sm:size-8" src="./assets/coin.png" alt="Coin">
+                        <p class="font-medium text-sm text-[#111111B3] sm:text-lg sm:font-semibold"><span id="total-balance">10000</span> BDT</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="container absolute top-40 -z-10 ">
+            <h1 class="font-black text-4xl mb-9">Important FAQ <i class="rotate-12 fa-regular fa-circle-question"></i></h1>
+            <div class="join join-vertical w-full">
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+                    <div class="collapse-content">
+                      <p>hello</p>
+                    </div>
+                  </div>
+              </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
