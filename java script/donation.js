@@ -82,9 +82,9 @@ donationFeni.addEventListener('click', function (e) {
     my_modal_1.showModal();
 
 })
-// feni donation function end 
+// Feni _donation_function _end 
 
-// quota movement donation function start 
+// quota_movement_donation_function starts 
 donationQuota.addEventListener('click', function (e) {
     const donationQuotaAmount = getElemById('donation-quota-amount');
     const donationAmount = parseFloatTagByElem(donationQuotaAmount, 'input');
